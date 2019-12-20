@@ -10,7 +10,6 @@ public class Main2 {
 		num = () -> 6.7;
 		System.out.println(num.getNum());
 		
-		
 	}
 
 }
