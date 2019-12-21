@@ -55,8 +55,8 @@ public class Main {
 		System.out.println("Verificando se existe alguma amanda:");
 		//Filtrando lista com totais
 		System.out.println(listaDeChamada.stream().filter(item -> item.toUpperCase().equals("AMANDA")).count()>0);//jeito errado de usar o filter
-		System.out.println(listaDeChamada.stream().anyMatch(item -> item.toUpperCase().equals("AMANA"))); // qualquer match
-		System.out.println(listaDeChamada.stream().noneMatch(item -> item.toUpperCase().equals("FRAN")));//nenhum match
+		System.out.println(listaDeChamada.stream().anyMatch(item -> item.toUpperCase().equals("MARIA"))); // qualquer match
+		System.out.println(listaDeChamada.stream().noneMatch(item -> item.toUpperCase().equals("ANA")));//nenhum match
 		
 	}
 
